@@ -30,6 +30,7 @@ describe('Network (navigator.connection)', function () {
             'unknown': 1,
             'ethernet': 1,
             'wifi': 1,
+            'cellular': 1,
             '2g': 1,
             '3g': 1,
             '4g': 1,
