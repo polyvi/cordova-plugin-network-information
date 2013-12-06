@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android"
            id="org.apache.cordova.network-information"
-      version="0.2.5-dev">
+      version="0.2.6-dev">
 
     <name>Network Information</name>
     <description>Cordova Network Information Plugin</description>
@@ -65,6 +65,17 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         
     </platform>
 
+
+    <!-- ubuntu -->
+    <platform name="ubuntu">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Camera">
+                <param policy_group="connectivity" policy_version="1" />
+            </feature>
+        </config-file>
+        <header-file src="src/ubuntu/network_information.h" />
+        <source-file src="src/ubuntu/network_information.cpp" />
+    </platform>
 
     <!-- ios -->
     <platform name="ios">    
