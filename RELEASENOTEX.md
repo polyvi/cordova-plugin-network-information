@@ -20,3 +20,10 @@
 -->
 # Release Note X
 
+
+### 0.2.6 Wed Jan 08 2014 15:15:27 GMT+0800 (CST)
+ *  added releasenotex.md
+ *  CB-5719 Updated version and RELEASENOTES.md for release 0.2.6
+ *  CB-5658 Update license comment formatting of doc/index.md
+ *  CB-5658 Add doc.index.md for netinfo plugin
+ *  CB-5658 Delete stale snapshot of plugin docs
