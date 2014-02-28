@@ -27,3 +27,13 @@
  *  CB-5658 Update license comment formatting of doc/index.md
  *  CB-5658 Add doc.index.md for netinfo plugin
  *  CB-5658 Delete stale snapshot of plugin docs
+
+## 0.2.7 (Fri Feb 28 2014)
+
+
+ *  Revert test
+ *  CB-5980 Updated version and RELEASENOTES.md for release 0.2.7
+ *  Initial implementation of Tizen plugin.
+ *  Delete stale test/ directory
+ *  CB-5719 Incremented plugin version on dev branch.
+ *  batch modify .reviewboard
