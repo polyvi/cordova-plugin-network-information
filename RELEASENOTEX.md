@@ -37,3 +37,16 @@
  *  Delete stale test/ directory
  *  CB-5719 Incremented plugin version on dev branch.
  *  batch modify .reviewboard
+
+
+## 0.2.8 (Tue Apr 29 2014)
+
+
+ *  CB-6452 Updated version and RELEASENOTES.md for release 0.2.8
+ *  CB-6465: Add license headers to Tizen code
+ *  CB-6460: Update license headers
+ *  CB-6422 [windows8] use cordova/exec/proxy
+ *  CB-6342 - iOS reports a cellular connection even when in Airplane mode
+ *  Add NOTICE file
+ *  CB-5980 Incremented plugin version on dev branch.
+ *  Incremented plugin version on dev branch to 0.2.8-dev
